@@ -32,7 +32,7 @@ body{
     display: flex;
     flex-direction: row-reverse;
     width: 70%;
-    height: 20rem;
+    height: 22rem;
     background-color: var(--card-background);
     border-radius: 2%;
 }
@@ -74,16 +74,16 @@ body{
     padding: 0 70px 0 50px;
 }
 
-.card-description-text,span{
-    color: var(--accent);
-}
-
-.card-description-text,h1{
+.first-heading{
     color: var(--main-heading);
     font-size: 30px;
 }
 
-.card-description-text,p{
+.first-heading span{
+    color: var(--accent);
+}
+
+.first-paragraph{
     color: var(--main-paragraph);
     padding-top: 20px;
     font-size: 14px;
@@ -98,7 +98,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 10px;
-    line-height: 0;
+    line-height: 1.5;
 }
 
 .rating-figure{
@@ -166,16 +166,16 @@ body{
         padding: 0 15px;   
     }
 
-    .card-description-text,span{
-        color: var(--accent);
-    }
-
-    .card-description-text,h1{
+    .first-heading{
         color: var(--main-heading);
         font-size: 20px;
     }
 
-    .card-description-text,p{
+    .first-heading span{
+        color: var(--accent);
+    }
+
+    .first-paragraph{
         color: var(--stat-headings);
         padding-top: 20px;
         font-size: 11px;
@@ -193,8 +193,7 @@ body{
     }
 
     .rating-stat{
-        margin-top: 10px;
-        line-height: 0;
+        line-height: 1.5;
         padding: 10px;
     }
 
